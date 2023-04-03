@@ -601,7 +601,7 @@ img {
 
 
 
-.modal-field :not(:last-child) {}
+
 
 .modal-input {
   height: 40px;
@@ -646,8 +646,11 @@ img {
 .input-wrap {
   display: flex;
   position: relative;
-  margin-bottom: 8px;
   margin-top: 4px;
+}
+
+.modal-field {
+  margin-bottom: 8px;
 }
 
 .modal-input-icon {
